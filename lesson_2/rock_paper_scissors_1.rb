@@ -1,4 +1,4 @@
-#Here there is a method "win" that has been created"
+# Here there is a method "win" that has been created"
 
 VALID_CHOICES = %w(rock paper scissors)
 

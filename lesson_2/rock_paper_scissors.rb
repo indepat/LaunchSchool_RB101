@@ -7,9 +7,7 @@ end
 def test_method
   prompt('test message')
 end
-
 test_method
-display_result = ''
 
 def display_result(player, computer)
   if (player == 'rock' && computer == 'scissors') ||
@@ -27,20 +25,20 @@ end
 
 loop do
   choice = ' '
-loop do
-  prompt("Choose one: #{VALID_CHOICES.join(', ')}")
-  choice = Kernel.gets().chomp()
+  loop do
+    prompt("Choose one: #{VALID_CHOICES.join(', ')}")
+    choice = Kernel.gets().chomp()
 
-  if VALID_CHOICES.include?(choice)
-    break
-  else
-    prompt("that's not a valid choice.")
-  end
+    if VALID_CHOICES.include?(choice)
+      break
+    else
+      prompt("that's not a valid choice.")
+    end
 end
 
 computer_choice = VALID_CHOICES.sample
 
-prompt('You chose: #{choice}; the computer chose: #{computer_choice}')
+prompt("You chose: #{choice}; the computer chose: #{computer_choice}")
 
 display_result(choice, computer_choice)
 
