@@ -18,7 +18,7 @@ work           <-- this is your course 1 git repo
 +--lesson_5     <-- all lesson 5 code goes here
 ```
 
-Previous course: [LS Launch School Introduction: Programming & Back-end Prep]  (https://github.com/indepat/Intro-Programming)
+Previous course: [LS Launch School Introduction: Programming & Back-end Prep](https://github.com/indepat/Intro-Programming)
 
 
 
