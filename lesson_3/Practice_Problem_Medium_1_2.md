@@ -24,6 +24,8 @@ _Fix this_:
   puts "the value of 40 + 2 is #{40 + 2}"
   ```
 
+
+
 !!! hint Hint
 
 Most programmers prefer using interpolation instead of concatenation
