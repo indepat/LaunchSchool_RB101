@@ -21,3 +21,4 @@ bar(foo)
 It will be "no"
 
 This is because the value returned from the `foo` method will always be `"yes"` , and `"yes" == "no"` will be `false`.
+
