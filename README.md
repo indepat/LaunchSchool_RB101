@@ -16,6 +16,8 @@ work           <-- this is your course 1 git repo
 +--lesson_4     <-- all lesson 4 code goes here
 |
 +--lesson_5     <-- all lesson 5 code goes here
+|
++--lesson_6	<-- all lesson 6 code goes here
 ```
 
 Previous course: [LS Launch School Introduction: Programming & Back-end Prep](https://github.com/indepat/Intro-Programming)
